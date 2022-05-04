@@ -1,0 +1,32 @@
+{
+	"name": "benlumia007/inspire",
+	"description": "Blush App: Forkable project package for running the Blush CMS.",
+	"keywords": [ "cms" ],
+	"homepage": "https://github.com/benlumia007/inspire",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name"     : "Benjamin Lu",
+			"email"    : "benlumia007@gmail.com",
+			"homepage" : "https://benjlu.com",
+			"role"     : "Developer"
+		}
+	],
+	"support"     : {
+		"issues" : "https://github.com/benlumia007/inspire/issues"
+	},
+	"autoload"    : {
+		"psr-4" : {
+			"App\\" : "app/"
+		},
+		"files": [
+			"app/functions-helpers.php",
+			"app/framework.php"
+		]
+	},
+	"require": {
+		"blush-dev/framework": "dev-master"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
