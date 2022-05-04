@@ -5,20 +5,15 @@ return [
 	// URL to the site.
 	'uri' => env( 'APP_URI', 'http://localhost' ),
 
-	// Custom title for the site.
-	'title' => 'Blush',
+	// A custom title for the site.
+	'title' => 'Inspire',
 
-	// Custom tagline for the site.
-	'tagline' => 'Yet another good morning',
+	// Custom description/tagline for the site.
+	'tagline' => '',
 
 	// Select from a list of supported timezones:
 	// https://www.php.net/manual/en/timezones.php
-	'timezone' => 'America/Chicago',
-
-	// Select from a list of supported date and time formats:
-	// https://www.php.net/manual/en/datetime.formats.date.php
-	'date_format' => 'F j, Y',
-	'time_format' => 'g:i a',
+	'timezone' => 'America/Los_Angeles',
 
 	// Set the homepage to show a custom content type collection. This
 	// should be the content type name/type (e.g., `post`) set in the
@@ -27,7 +22,10 @@ return [
 	'home_alias' => '',
 
 	// Register service providers.
-	'providers' => [],
+	'providers' => [
+		App\Config\Provider::class,
+		App\Mix\Provider::class,
+	],
 
 	// Register static proxies classes.
 	'proxies' => []
