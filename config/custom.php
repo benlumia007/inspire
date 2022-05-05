@@ -9,8 +9,8 @@ return [
 			'title' => 'About'
 		],
 		[
-			'link' => '/portfolio',
-			'title' => 'Portfolio'
+			'link' => '/blog',
+			'title' => 'Blog'
 		]
 	],
 ];

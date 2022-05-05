@@ -1,0 +1,31 @@
+.content-area {
+	line-height: 1.8rem;
+	margin: 0 auto;
+	max-width: 40rem;
+
+	.archive-header {
+		margin: 3rem 0;
+	}
+
+	.page {
+		.entry-header {
+			text-align: center;
+		}
+	}
+
+	.post {
+		margin-bottom: 3rem;
+
+		.entry-header {
+			.entry-date {
+				font-family: font-family( date );
+				font-size: 2rem;
+			}
+
+			.entry-title {
+				margin: 0.813rem 0 0 0;
+				padding: 0;
+			}
+		}
+	}
+}
